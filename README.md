@@ -99,7 +99,6 @@ G0 Z5
 M5          (spindle stop)
 G0 X0 Y0    (move to home / safe XY)
 M30         (program end and rewind)
-
 ```
 ## Final G Code
 ```
@@ -202,7 +201,6 @@ M5          (Spindle stop)
 G0 X0 Y0 Z5.000
 M30         (Program end and rewind)
 %
-
 ```
 ### Engraving G Code
 ```
@@ -259,7 +257,6 @@ M5          (Stop spindle)
 G0 X0 Y0 Z5.000
 M30         (End and rewind)
 %
-
 ```
 ### Drill G Code
 ```
@@ -314,7 +311,6 @@ G0 Z5.000
 G0 X0 Y0
 M30          (End and rewind)
 %
-
 ```
 ### Cut G Code
 ```
@@ -361,7 +357,6 @@ G0 Z5.000
 G0 X0 Y0
 M30          (End of program)
 %
-
 ```
 # RESULT:
 Thus, the G code of 12V-Battery-Charger-Circuit-with-Auto-Cut-Off-On-circuitt were successfully converted into final CNC G-Code for accurate and high-quality PCB engraving, drilling, and cutting using the CNC machine.
